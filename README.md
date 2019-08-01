@@ -2,22 +2,10 @@
 
 ## 1) Count the total number of the bees
 
-The goal of this task is to build a machine learning model to count the total number of honeybees. Download data from the link below: 
+This proposed model is based on Autoencoder CNN networks that try to predict images that show the location of the bees is the image.
+The inputs are color images tha provided by the images of the bees from the dataset.
 
-**Dataset:** <http://visal.cs.cityu.edu.hk/downloads/smallobjects/>
-**Image folder:** honeybee
 
-There are 118 labeled images. Next, build a solution that returns a number of honeybees per image.
-
-Provide a summary (ideally jupyter notebook) with the results and findings that were most important for you.
-
-The challenge is deliberately kept very general. You are free to use the approach you think is best.
-
-### Questions to keep in mind
-- How well does your model perform? How does it compare to the simplest baseline model you can think of?
-- How many images are required to build an accurate model?
-- What will be an ideal metric for this use-case?
-- Where do you see the main challenge in building a model like the one we asked here?
 
 ## 2) Publication of an API using containers
 
