@@ -3,10 +3,10 @@
 ## 1) Count the total number of the bees
 model.ipynb
 
-The goal of this project is to cunt the number of the bees from the input images.
 
-It is done in two main part:
-The First one is system training, and second one is cunting the number of bees, with regard to the prdicted images from the system.
+The goal of this project is to predict the number of moving objects from the input video.
+This autoencoder CNN network is trained to count the number of small moving objects in the input video. The input type is RGB videos, and the output is the total number of moving objects. 
+The algorithm consists of two main steps: 1) image segmentation, which is performed by a deep neural network, and 2) object counting.
 
 The proposed model is based on Autoencoder CNN networks that try to predict images to show the location of the bees in the image.
 The inputs are color images tha provided by the images of the bees from the dataset.
