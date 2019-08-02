@@ -1,4 +1,4 @@
-# Bees
+# Small object detection
 
 ## 1) Count the total number of the bees
 model.ipynb
