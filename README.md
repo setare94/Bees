@@ -1,6 +1,10 @@
 # Small Object Detection
 
-## 1) Count the total number of the bees
+## 1) Data Set
+you can download dataset from here :
+http://visal.cs.cityu.edu.hk/downloads/smallobjects/
+
+## 2) Count the total number of the bees
 model.ipynb
 
 
@@ -10,7 +14,7 @@ The algorithm consists of two main steps: 1) image segmentation, which is perfor
 
 
 
-## 2) Publication of an API using containers
+## 3) Publication of an API using containers
 
 This file included the app.py that uses flask and flask restful to make API. and then dockerize it on the server.
 
